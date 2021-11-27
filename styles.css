@@ -1,0 +1,126 @@
+.palabras {
+    position: absolute;
+
+}
+
+.w-one {
+    position: relative;
+}
+.l-11 {
+    position: fixed;
+    top: 30px;
+    right: 1337px;
+}
+.l-12 {
+    position: fixed;
+    top: 30px;
+    right: 1318px;
+}
+.l-13 {
+    position: fixed;
+    top: 30px;
+    right: 1307px;
+}
+
+
+.w-two {
+  position: relative;
+}
+.l-21 {
+    position: fixed;
+    top: 59px;
+    right: 1337px;
+
+}
+.l-22 {
+    position: fixed;
+    top: 59px;
+    right: 1318px;
+}
+.l-23 {
+    position: fixed;
+    top: 59px;
+    right: 1307px;
+}
+
+
+.w-three {
+  position: relative;
+}
+.l-31 {
+    position: fixed;
+    top: 86px;
+    right: 1337px;
+
+}
+.l-32 {
+    position: fixed;
+    top: 86px;
+    right: 1318px;
+}
+.l-33 {
+  position: fixed;
+  top: 86px;
+  right: 1307px;
+}
+
+
+.palabras {
+  padding: 4px;
+}
+
+.word {
+  padding: 5px;
+}
+
+.letter1 {
+  padding: 5px;
+}
+.letter2 {
+  padding: 5px;
+}
+.letter3 {
+  padding: 5px;
+}
+
+
+.w-one {
+  background-color: rgb(29, 81, 226);
+}
+.l-11 {
+  background-color: rgb(29, 81, 226);
+}
+.l-12 {
+  background-color: rgb(29, 81, 226);
+}
+.l-13 {
+  background-color: rgb(29, 81, 226);
+}
+
+
+.w-two {
+  background-color: rgb(29, 81, 226);
+}
+.l-21 {
+  background-color: rgb(29, 81, 226);
+}
+.l-22 {
+  background-color: rgb(29, 81, 226);
+}
+.l-23 {
+  background-color: rgb(29, 81, 226);
+}
+   
+
+.w-three {
+  background-color: rgb(29, 81, 226);
+}
+.l-31 {
+  background-color: rgb(29, 81, 226);
+ }
+.l-32 {
+  background-color: rgb(29, 81, 226);
+}
+.l-33 {
+  background-color: rgb(29, 81, 226);
+}
