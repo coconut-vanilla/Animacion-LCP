@@ -43,18 +43,16 @@
 
   };
   var comprobarStr = function () {
-    let prefix = '';
-
-    if (words.length === 0) document.getElementById("texto").innerHTML = prefix;
-
-    for (let i = 0; i < words[0].length; i++) {
-      const character = words[0][i];
-      for (let j = 0; j < words.length; j++) {
-        if (words[j][i] !== character) document.getElementById("texto").innerHTML = prefix;
+    let longSt = Cad(words).split('');
+    let i = 0;
+    let printStr = setInterval(function () {
+      document.getElementById("texto").innerHTML += longSt[i];
+      i++;
+      if (i === longSt.length) {
+        clearInterval(printStr)
+        document.getElementById("texto").style.color = 'green'
       }
-      prefix = prefix + character;
-    }
-    document.getElementById("texto").innerHTML = prefix;
+    }, 200);
   };
 
   var comprobarInput = function () {
@@ -78,6 +76,24 @@
   for (var i = 0; i <= lista.children.length - 1; i++) {
     lista.children[i].addEventListener("click", eleminarTarea);
   }
+
+  function Cad(strs) {
+
+    let prefix = '';
+
+    if (strs.length === 0) return prefix;
+
+    for (let i = 0; i < strs[0].length; i++) {
+      const character = strs[0][i];
+      for (let j = 0; j < strs.length; j++) {
+        if (strs[j][i] !== character) return prefix;
+      }
+      prefix = prefix + character;
+    }
+    return prefix;
+  }
+
+
 }());
 
 //var longestCommonPrefix = function (strs) {
