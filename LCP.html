@@ -1,16 +1,38 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Prefijo Comun Mas Largo</title>
-    </head>
-    <body>
-          <h1>Prueba</h1>
-          <script src="script.js"></script>
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
+    <title>Longest Common Prefix</title>
+</head>
+
+<body>
+    <div class="principal">
+        <div class="wrap">
+            <h1>LCS</h1>
+            <form class="formulario" action="">
+                <input type="text" id="tareaInput" placeholder="Inserta una cadena">
+                <input type="button" class="boton" id="btn-agregar" value="Agregar String">
+                <input type="button" class="boton-eval" id="btn-evaluar" value="Evaluar">
+            </form>
+        </div>
+    </div>
+
+    <div class="tareas">
+        <div>
+            <ul class="lista" id="lista">
+
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <div class="textos">
+        <h1 id="texto"></h1>
+    </div>
+</body>
+
 </html>
-
-
-
-
-
-
