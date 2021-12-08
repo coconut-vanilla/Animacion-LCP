@@ -23,6 +23,8 @@
       tareaInput.className = "error";
       return false;
     }
+    tareaInput.setAttribute("placeholder", "Inserta una cadena");
+
     //Funcion Cad
     // Agregamos el contenido al enlace
     enlace.appendChild(contenido);
