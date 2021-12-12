@@ -1,0 +1,226 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #FAFAFA;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+
+.principal {
+	background: #0994d4;
+	border-top: 20px solid #0588c5;
+	color: #fff;
+	padding: 50px 0;
+	width: 100%;
+}
+
+.principal .formulario {
+	color: #212121;
+	text-align: center;
+}
+
+.principal .formulario input[type=text] {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+.principal .formulario input[type=text].error {
+	border: 1px solid #D32F2F;
+	color: red;
+}
+
+.principal .formulario .boton {
+	background: none;
+  border: 1px solid white;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+.principal .formulario .boton-eval {
+	background: #2fd38f;
+	border: 1px solid #2fd38f;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+.principal .formulario .boton-eval:hover {
+	background: white;
+	border: 1px solid #2fd38f;
+	color: black;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+
+.principal .formulario .boton:hover {
+	border: 1px solid #fff;
+  background: white;
+  color: black;
+}
+
+/* - Tareas - */
+.tareas .lista {
+  margin-left: 5%;;
+	list-style: none;
+  align-self: stretch;
+}
+
+.tareas .lista li {
+	border-bottom: 1px solid #B6B6B6;
+}
+
+.tareas .lista li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+
+.tareas .lista li a:hover {
+	text-decoration: line-through;
+}
+
+.palabras {
+    position: absolute;
+
+}
+.textos{
+    margin-left: 5%;
+ }
+
+.w-one {
+    position: relative;
+}
+.l-11 {
+    position: fixed;
+    top: 30px;
+    right: 1337px;
+}
+.l-12 {
+    position: fixed;
+    top: 30px;
+    right: 1318px;
+}
+.l-13 {
+    position: fixed;
+    top: 30px;
+    right: 1307px;
+}
+
+
+.w-two {
+  position: relative;
+}
+.l-21 {
+    position: fixed;
+    top: 59px;
+    right: 1337px;
+
+}
+.l-22 {
+    position: fixed;
+    top: 59px;
+    right: 1318px;
+}
+.l-23 {
+    position: fixed;
+    top: 59px;
+    right: 1307px;
+}
+
+
+.w-three {
+  position: relative;
+}
+.l-31 {
+    position: fixed;
+    top: 86px;
+    right: 1337px;
+
+}
+.l-32 {
+    position: fixed;
+    top: 86px;
+    right: 1318px;
+}
+.l-33 {
+  position: fixed;
+  top: 86px;
+  right: 1307px;
+}
+
+
+.palabras {
+  padding: 4px;
+}
+
+.word {
+  padding: 5px;
+}
+
+.letter1 {
+  padding: 5px;
+}
+.letter2 {
+  padding: 5px;
+}
+.letter3 {
+  padding: 5px;
+}
+
+
+.w-one {
+  background-color: rgb(29, 81, 226);
+}
+.l-11 {
+  background-color: rgb(29, 81, 226);
+}
+.l-12 {
+  background-color: rgb(29, 81, 226);
+}
+.l-13 {
+  background-color: rgb(29, 81, 226);
+}
+
+
+.w-two {
+  background-color: rgb(29, 81, 226);
+}
+.l-21 {
+  background-color: rgb(29, 81, 226);
+}
+.l-22 {
+  background-color: rgb(29, 81, 226);
+}
+.l-23 {
+  background-color: rgb(29, 81, 226);
+}
+   
+
+.w-three {
+  background-color: rgb(29, 81, 226);
+}
+.l-31 {
+  background-color: rgb(29, 81, 226);
+ }
+.l-32 {
+  background-color: rgb(29, 81, 226);
+}
+.l-33 {
+  background-color: rgb(29, 81, 226);
+}
