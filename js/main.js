@@ -27,6 +27,9 @@
       tareaInput.className = "error";
       return false;
     }
+    tareaInput.setAttribute("placeholder", "Inserta una cadena");
+
+    
     //Funcion Cad
     // Agregamos el contenido al enlace
     enlace.appendChild(contenido);
@@ -51,17 +54,19 @@
   var comprobarStr = function () {
     document.getElementById("texto").innerHTML = "";
     let longSt = Cad(words).split('');
-    if (longSt.length === 0) {
-      longSt = ("No hay coincidencias").split('')
-    }
-
     let i = 0;
     let printStr = setInterval(function () {
-      document.getElementById("texto").innerHTML += longSt[i];
+    
+    document.getElementById("texto").innerHTML += longSt[i];
       i++;
       if (i === longSt.length) {
+        clearInterval(printStr)//se deja de llamar a la funcion
+        document.getElementById("texto").style.color = 'green';
+      }
+      else if (longSt.length == 0 || longSt.length == undefined){
         clearInterval(printStr)
-        document.getElementById("texto").style.color = "green"
+        document.getElementById("texto").innerHTML = "No hay prefijo comun"
+        document.getElementById("texto").style.color = 'red';
       }
     }, 200);
   };
